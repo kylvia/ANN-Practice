@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "ann classification"
+version = "0.1.0"
+description = ""
+authors = ["jiao.k <koujiao@tensorsecurity.cn>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+tensorflow = "*"
+scikeras = "*"
+pandas = "*"
+numpy = "*"
+scikit-learn = "*"
+tensorboard = "*"
+matplotlib = "*"
+streamlit = "*"
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
